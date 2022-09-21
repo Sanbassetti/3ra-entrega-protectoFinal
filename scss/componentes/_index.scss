@@ -1,0 +1,139 @@
+/* noticias index */
+
+.noticia1__index {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 10px;
+
+    img {
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 20px;
+    
+    
+    }
+    
+
+}
+
+.noticia2__index {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 10px;
+
+    img {
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 20px;
+    
+    }
+}
+
+.noticia3__index {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid grey;
+    padding: 10px;
+
+    img {
+        width: 350px;
+        height: 350px;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 20px;
+    
+    
+    }
+}
+
+/* fin de noticias index */
+
+.top__juegos--index img {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.juegos__pc--index {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+
+    p {
+        font-size: 18px;
+        margin: 20px;
+    
+    
+    }
+
+
+}
+
+.juegos__ps5--index {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+
+    p {
+        font-size: 18px;
+        margin: 20px;
+    
+    }
+    
+    
+}
+
+/* fin de juegos index */
+
+/*publicidad index */
+
+aside {
+    padding: 15px 0 15px 0;
+    margin: 15px 0 15px 0;
+    
+    img {
+        height: 200px;
+        width: 200px;
+    
+    }
+
+    p {
+        font-family: 'Oxygen', sans-serif;
+        color: whitesmoke;
+        font-size: 18px;
+        margin: 20px;
+    
+    }
+
+    .publicidad__imagenes--index {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid grey;
+        padding: 15px;
+        align-items: center;
+    
+    }
+}

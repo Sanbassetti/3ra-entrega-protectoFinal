@@ -1,0 +1,41 @@
+
+@media screen and (max-width: 576px) {
+
+    /* index*/
+    .caja {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    /*titulo*/
+    .titulo__index {
+        font-size: 60px;
+    }
+
+    .noticia1__index {
+        flex-direction: column;
+    }
+
+    .noticia2__index {
+        flex-direction: column;
+    }
+
+    .noticia3__index {
+        flex-direction: column;
+    }
+
+    .juegos__pc--index {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .juegos__ps5--index {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    aside .publicidad__imagenes--index {
+        flex-direction: column;
+        align-items: center;
+    }
+}

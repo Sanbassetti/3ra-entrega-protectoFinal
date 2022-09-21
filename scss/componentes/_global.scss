@@ -1,0 +1,134 @@
+/* reseteo */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* body general */
+body {
+    background-color: #373230;
+    background-image: linear-gradient(90deg, #373230 0%, #acaba8 100%);
+    font-family: $letra-general;
+    color: $color-texto
+
+}
+.caja {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+
+    a {
+    text-decoration: none;
+    color: $color-nav;
+    padding: 1px;
+    margin: 10px;
+    font-size: 18px;
+
+    &:hover {
+        color: $color-nav;
+    }
+
+
+}
+    
+    }
+
+
+}
+
+nav img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+/* titulos  */
+.titulo__index {
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 100px;
+    font-weight: 700;
+    color: $color-nav;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Silkscreen', cursive;
+    color: $color-nav;
+    border: 1px solid grey;
+}
+
+
+article h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Silkscreen', cursive;
+    color: $color-nav;
+    margin-bottom: 15px;
+}
+
+article h2 {
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Silkscreen', cursive;
+    color: $color-nav;
+}
+
+/* titulos fin */
+
+footer{
+
+    h3 {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Silkscreen', cursive;
+        font-weight: 400;
+        color: #ecaf77
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    
+    
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: #ecaf77;
+        padding: 1px;
+    
+    }
+
+    img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    
+    }
+
+    p {
+        text-align: center;
+        font-style: italic;
+    }
+}
+

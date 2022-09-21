@@ -1,0 +1,252 @@
+/* reseteo */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* body general */
+body {
+  background-color: #373230;
+  background-image: linear-gradient(90deg, #373230 0%, #acaba8 100%);
+  font-family: "Oxygen", sans-serif;
+  color: whitesmoke;
+}
+
+.caja {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  color: #ecaf77;
+  padding: 1px;
+  margin: 10px;
+  font-size: 18px;
+}
+nav ul a:hover {
+  color: #ecaf77;
+}
+
+nav img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+/* titulos  */
+.titulo__index {
+  text-align: center;
+  font-family: "Silkscreen", cursive;
+  font-size: 100px;
+  font-weight: 700;
+  color: #ecaf77;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  font-family: "Silkscreen", cursive;
+  color: #ecaf77;
+  border: 1px solid grey;
+}
+
+article h3 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  font-family: "Silkscreen", cursive;
+  color: #ecaf77;
+  margin-bottom: 15px;
+}
+
+article h2 {
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+  font-family: "Silkscreen", cursive;
+  color: #ecaf77;
+}
+
+/* titulos fin */
+footer h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Silkscreen", cursive;
+  font-weight: 400;
+  color: #ecaf77;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #ecaf77;
+  padding: 1px;
+}
+footer img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+footer p {
+  text-align: center;
+  font-style: italic;
+}
+
+/* noticias index */
+.noticia1__index {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.noticia1__index img {
+  width: 350px;
+  height: 350px;
+  padding: 20px;
+  margin: 20px;
+}
+.noticia1__index p {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.noticia2__index {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.noticia2__index img {
+  width: 350px;
+  height: 350px;
+  padding: 20px;
+  margin: 20px;
+}
+.noticia2__index p {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.noticia3__index {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 10px;
+}
+.noticia3__index img {
+  width: 350px;
+  height: 350px;
+  padding: 20px;
+  margin: 20px;
+}
+.noticia3__index p {
+  font-size: 18px;
+  margin: 20px;
+}
+
+/* fin de noticias index */
+.top__juegos--index img {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.juegos__pc--index {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+}
+.juegos__pc--index p {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.juegos__ps5--index {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+}
+.juegos__ps5--index p {
+  font-size: 18px;
+  margin: 20px;
+}
+
+/* fin de juegos index */
+/*publicidad index */
+aside {
+  padding: 15px 0 15px 0;
+  margin: 15px 0 15px 0;
+}
+aside img {
+  height: 200px;
+  width: 200px;
+}
+aside p {
+  font-family: "Oxygen", sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  margin: 20px;
+}
+aside .publicidad__imagenes--index {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  padding: 15px;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  /* index*/
+  .caja {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  /*titulo*/
+  .titulo__index {
+    font-size: 60px;
+  }
+  .noticia1__index {
+    flex-direction: column;
+  }
+  .noticia2__index {
+    flex-direction: column;
+  }
+  .noticia3__index {
+    flex-direction: column;
+  }
+  .juegos__pc--index {
+    flex-direction: column;
+    align-items: center;
+  }
+  .juegos__ps5--index {
+    flex-direction: column;
+    align-items: center;
+  }
+  aside .publicidad__imagenes--index {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
