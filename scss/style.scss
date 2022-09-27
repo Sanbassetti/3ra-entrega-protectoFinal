@@ -1,8 +1,13 @@
 @import "./base/variables";
+@import "./base/maps";
+@import "./base/extend";
+@import "./base/mixin";
 @import "./componentes/global";
 @import "./componentes/index";
+@import "./componentes/noticia";
+@import "./componentes/juegos";
+@import "./componentes/reviews";
 @import "./componentes/media";
-
 
 
 

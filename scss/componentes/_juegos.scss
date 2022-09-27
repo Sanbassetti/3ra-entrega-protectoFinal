@@ -1,0 +1,59 @@
+/* pag juegos */
+
+
+.juego__ps5--juegos {
+
+    @extend %posicion;
+
+     img {
+        width: 800px;
+        height: 800px;
+        p {
+            font-size: 18px;
+            margin: 20px;
+            padding: 10px;
+        
+        }
+    
+        
+    }
+
+}
+
+.juego__pc--juegos {
+
+    @extend %posicion;
+
+     img {
+        width: 800px;
+        height: 800px;
+        p {
+            font-size: 18px;
+            margin: 20px;
+            padding: 10px;
+        
+        }
+    
+        
+    }
+
+}
+
+.juego__xbox--juegos {
+
+    @extend %posicion;
+
+     img {
+        width: 800px;
+        height: 800px;
+        p {
+            font-size: 18px;
+            margin: 20px;
+            padding: 10px;
+        
+        }
+    
+        
+    }
+
+}

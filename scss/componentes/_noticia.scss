@@ -1,0 +1,56 @@
+/* pag noticias*/
+.noticia__pc--not {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oxygen', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 20px;
+    border: map-get($map: $noticia , $key: bordes );
+
+    img {
+        height: map-get($map: $noticia , $key: alto );
+        width: map-get($map: $noticia , $key: ancho );
+    }
+
+}
+
+
+
+.noticia__ps5--not {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oxygen', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 20px;
+    border: map-get($map: $noticia , $key: bordes );
+
+     img {
+        height:  map-get($map: $noticia , $key: alto );
+        width:  map-get($map: $noticia , $key: ancho );
+    }
+
+}
+
+.noticia__xbox--not {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oxygen', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 20px;
+    border: map-get($map: $noticia , $key: bordes );
+
+    img {
+        height: map-get($map: $noticia , $key: ancho );
+        width:  map-get($map: $noticia , $key: ancho );
+    }
+    
+
+    
+}
+/* fin pag noticias */

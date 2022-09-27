@@ -1,0 +1,54 @@
+/* pag reviews */
+.video__audio--rev {
+   @include pagReviews;
+    margin: 20px;
+    padding: 10px;
+
+    p {
+        font-size: 18px;
+        margin: 20px;
+        padding: 10px;
+    
+    }
+}
+
+.video__microfono--rev {
+    @include pagReviews;
+     margin: 20px;
+     padding: 10px;
+ 
+     p {
+         font-size: 18px;
+         margin: 20px;
+         padding: 10px;
+     
+     }
+ }
+
+ .video__mouse--rev {
+    @include pagReviews;
+     margin: 20px;
+     padding: 10px;
+ 
+     p {
+         font-size: 18px;
+         margin: 20px;
+         padding: 10px;
+     
+     }
+ }
+
+ .video__teclado--rev {
+    @include pagReviews;
+     margin: 20px;
+     padding: 10px;
+ 
+     p {
+         font-size: 18px;
+         margin: 20px;
+         padding: 10px;
+     
+     }
+ }
+
+ /* fin pag reviews */
