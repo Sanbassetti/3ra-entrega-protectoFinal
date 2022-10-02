@@ -5,17 +5,13 @@
 
     @extend %posicion;
 
-     img {
+    img {
         width: 800px;
         height: 800px;
-        p {
-            font-size: 18px;
-            margin: 20px;
-            padding: 10px;
-        
-        }
-    
-        
+
+
+
+
     }
 
 }
@@ -24,17 +20,12 @@
 
     @extend %posicion;
 
-     img {
+    img {
         width: 800px;
         height: 800px;
-        p {
-            font-size: 18px;
-            margin: 20px;
-            padding: 10px;
-        
-        }
-    
-        
+
+
+
     }
 
 }
@@ -43,17 +34,21 @@
 
     @extend %posicion;
 
-     img {
+    img {
         width: 800px;
         height: 800px;
-        p {
-            font-size: 18px;
-            margin: 20px;
-            padding: 10px;
-        
-        }
-    
-        
+
+
+
     }
+
+}
+
+p {
+
+    font-size: 16px;
+    margin-left: 20px;
+
+
 
 }
