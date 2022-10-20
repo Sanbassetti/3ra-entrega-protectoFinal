@@ -348,7 +348,7 @@ p {
 }
 
 /* fin pag reviews */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 300px) {
   /*titulo*/
   .titulo__index {
     font-size: 60px;
