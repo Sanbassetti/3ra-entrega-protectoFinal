@@ -351,7 +351,7 @@ p {
 @media screen and (max-width: 300px) {
   /*titulo*/
   .titulo__index {
-    font-size: 60px;
+    font-size: 100%;
   }
   .noticia1__index {
     flex-direction: column;
@@ -430,7 +430,7 @@ p {
 @media screen and (max-width: 480px) {
   /*titulo*/
   .titulo__index {
-    font-size: 60px;
+    font-size: 100%;
   }
   .noticia1__index {
     flex-direction: column;
