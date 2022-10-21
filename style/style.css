@@ -78,7 +78,7 @@ article h3 {
 }
 
 article h2 {
-  font-size: 50px;
+  font-size: 35px;
   text-align: center;
   padding: 10px;
   font-family: "Silkscreen", cursive;
@@ -369,7 +369,6 @@ p {
 @media screen and (max-width: 480px) {
   /*titulo*/
   .caja {
-    max-width: 475px;
     margin: 0 auto;
   }
   .titulo__index {
@@ -452,7 +451,6 @@ p {
 @media screen and (max-width: 576px) {
   /* index*/
   .caja {
-    max-width: 550px;
     margin: 0 auto;
   }
   /*titulo*/
@@ -541,15 +539,35 @@ p {
   .noticia1__index {
     flex-direction: column;
   }
+  .noticia1__index img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
   .noticia2__index {
     flex-direction: column;
+  }
+  .noticia2__index img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
   }
   .noticia3__index {
     flex-direction: column;
   }
+  .noticia3__index img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
   .juegos__pc--index {
     flex-direction: column;
     align-items: center;
+  }
+  .top__juegos--index img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
   }
   .juegos__ps5--index {
     flex-direction: column;
@@ -586,22 +604,22 @@ p {
     align-items: center;
   }
   .juego__ps5--juegos img {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
   }
   .juego__pc--juegos img {
-    width: 400px;
+    width: 100%;
     height: 400px;
   }
   .juego__xbox--juegos img {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
   }
   /* juegos*/
   /* rev */
   .section-rev iframe {
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
   }
   /*rev*/
   /*nosotros*/
