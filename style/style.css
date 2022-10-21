@@ -534,7 +534,7 @@ p {
 @media screen and (max-width: 768px) {
   /*titulo*/
   .titulo__index {
-    font-size: 60px;
+    font-size: 55px;
   }
   .noticia1__index {
     flex-direction: column;
