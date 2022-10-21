@@ -1,107 +1,4 @@
-@media screen and (max-width: 300px){
-    /*titulo*/
-    .titulo__index {
-        font-size: 100%;
-    }
-    
-    .noticia1__index {
-        flex-direction: column;
-    }
-    
-    .noticia2__index {
-        flex-direction: column;
-    }
-    
-    .noticia3__index {
-        flex-direction: column;
-    }
-    
-    .juegos__pc--index {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .juegos__ps5--index {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    aside .publicidad__imagenes--index {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    /*noticias*/
-    .noticia__pc--not img {
-        height: 100%;
-        width: 100%;
-    
-    }
-    
-    .noticia__ps5--not img {
-        height: 100%;
-        width: 100%;
-    }
-    
-    .noticia__xbox--not img {
-        height: 100%;
-        width: 100%;
-    }
-    
-    /*juegos*/
-    
-    .juego__ps5--juegos {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    
-    .juego__pc--juegos {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .juego__xbox--juegos {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .juego__ps5--juegos img {
-        width: 100%;
-        height: 100%;
-    }
-    
-    .juego__pc--juegos img {
-        width: 100%;
-        height: 100%;
-    }
-    
-    .juego__xbox--juegos img {
-        width: 100%;
-        height: 100%;
-    }
-    
-    /* juegos*/
-    
-    /* rev */
-    .section-rev iframe {
-    height: 100%;
-    width: 100%;
-    }
-    /*rev*/
-    /*nosotros*/
-    .section-nos p {
-    text-align: center;
-    padding: 15px;
-    margin: 15px;
-    }
-    
-    /*nosotros*/
-    
-    
-    
-    }
-    
+
 
 
 
@@ -109,8 +6,13 @@
 
 @media screen and (max-width: 480px){
 /*titulo*/
+
+.caja {
+    max-width: 475px;
+    margin: 0 auto;
+}
 .titulo__index {
-    font-size: 100%;
+    font-size: 60px;
 }
 
 .noticia1__index {

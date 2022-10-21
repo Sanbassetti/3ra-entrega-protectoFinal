@@ -112,11 +112,13 @@ footer{
     
     }
 
-    ul li a {
+  a {
         text-decoration: none;
         color: #ecaf77;
         padding: 1px;
-    
+    &:hover{
+        color: #ecaf77;
+    }
     }
 
     img {
@@ -135,5 +137,19 @@ footer{
 .btn-propio{
     background-color: #ecaf77;
     margin-top: 10px;
-}
 
+}
+.btn-propio:focus
+{
+         outline: none;
+         box-shadow: none;}
+
+.form-propio{
+    margin-top: 10px;
+
+}
+.form-propio:focus{
+    outline: none !important;
+         box-shadow: none;
+         border-color: #ecaf77;
+}
